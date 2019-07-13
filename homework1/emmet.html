@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+ctrl+/
+<!-- закомментировать строку -->
+
+hdr, ftr, bnt 
+<!-- сокращения
+
+<header></header>
+<footer></footer>
+<button></button> -->
+
+h1.title 
+<!--создавать классы 
+
+<h1 class="title"></h1> -->
+
+.box 
+<!-- по умолчанию создается DIV
+
+<div class="box"></div> -->
+
+p{content} 
+<!-- создает контент
+
+<p>content</p> -->
+
+div>ul>li>a 
+<!-- <div>
+    <ul>
+        <li><a href=""></a></li>
+    </ul>
+</div> -->
+
+div>ul*2>li*3>a 
+<!-- <div>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+</div> -->
+
+ul#navigation>li*5>a{list item} 
+<!-- <ul id="navigation">
+    <li><a href="">list item</a></li>
+    <li><a href="">list item</a></li>
+    <li><a href="">list item</a></li>
+    <li><a href="">list item</a></li>
+    <li><a href="">list item</a></li>
+</ul> -->
+
+hdr+ftr 
+<!-- 1. "соседи" - теги, которые стоят на одном уровне
+
+<header></header>
+<footer></footer> -->
+
+div+ul>li 
+<!-- 2. "соседи" - теги, которые стоят на одном уровне
+
+<div></div>
+<ul>
+    <li></li>
+</ul> -->
+
+        .wrapper>hdr>ul>li+ftr
+        <!-- "группировка" - это первый пример НЕПРАВИЛЬНЫЙ
+
+        <div class="wrapper">
+            <header>
+                <ul>
+                    <li></li>
+                    <footer></footer>
+                </ul>
+            </header>
+        </div> -->
+
+        .wrapper>(hdr>ul>li)+ftr
+        <!-- "группировка" - второй пример ПРАВИЛЬНЫЙ 
+
+        <div class="wrapper">
+            <header>
+                <ul>
+                    <li></li>
+                </ul>
+            </header>
+            <footer></footer>
+        </div> -->
+
+a*3[target="_blank"] 
+<!-- атрибуты - когда нужно задать атрибут 
+
+<a href="" target="_blank"></a>
+<a href="" target="_blank"></a>
+<a href="" target="_blank"></a> -->
+
+ul.mylist>lorem10.item*4 
+<!-- создает указанное количество абсолютно разных текстов( в данном случае из 10 слов) 
+    
+    <ul class="mylist">
+    <li class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, eligendi?</li>
+    <li class="item">Voluptas repudiandae ratione libero fugiat obcaecati consequatur enim incidunt laborum.</li>
+    <li class="item">Debitis odio minus doloribus beatae quia hic sapiente distinctio magni!</li>
+    <li class="item">Nesciunt earum magnam amet qui natus vero, asperiores ipsum animi?</li>
+</ul> -->
+
+
+</body>
+</html>
