@@ -44,7 +44,7 @@ a:hover {
     margin-right: 0;
 }
 
-.article_last:nth-last-of-type(-n+3){
+.article_last {
     margin-bottom: 0;
 }
 
