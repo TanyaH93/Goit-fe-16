@@ -13,7 +13,6 @@
 
 .nav {
     text-align: center;
-    margin-bottom: 53px;
 }
 
 .list{
@@ -21,7 +20,13 @@
     display: inline-block;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 50px;
+    margin-right: 100px;
+    margin-top: 78px;
+    margin-bottom: 104px;
+}
+
+.list:last-child {
+    margin-right: 0;
 }
 
 a {
@@ -31,6 +36,10 @@ a {
 
 a:hover {
     color: #03a9f4;  
+}
+
+.posts {
+    letter-spacing: -0.5px;
 }
 
 .article {
@@ -56,20 +65,22 @@ a:hover {
     color: #b4ad9e;
 }
 
-h2 {
+.title {
     font-size: 30px;
-    letter-spacing: -0.5px;
     margin-top: 36px;
+    font-family: 'Playfair Display', serif;
 }
+
 .paragraph {
     font-size: 14px;
     margin-top: 44px;
     line-height: 1.714;
     text-align: left;
+    font-family: 'Playfair Display', serif;
 }
 
 .button {
-text-align: center;
+display: block;
 height: 60px;
 width: 164px;
 font-size: 20px;
@@ -77,11 +88,7 @@ font-family: 'Playfair Display', serif;
 color: #626262;
 border: 2px solid #626262;
 background: #ffffff;
-margin: 57px 0 70px 0;
-position: relative; 
-left: 50%;
-margin-left: -82px;
+margin: 0 auto;
+margin-top: 57px;
+margin-bottom: 70px;
 }
-
-
-  
