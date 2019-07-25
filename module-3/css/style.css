@@ -9,6 +9,7 @@
     margin: auto;
     font-family: 'Playfair Display', serif;
     color: #626262;
+    padding-bottom: 70px;
 }
 
 .nav {
@@ -40,6 +41,7 @@ a:hover {
 
 .posts {
     letter-spacing: -0.5px;
+    margin-bottom: 57px;
 }
 
 .article {
@@ -49,14 +51,13 @@ a:hover {
     margin-bottom: 136px;
 }
 
-.article_item {
+.article:nth-child(even) {
     margin-right: 0;
 }
 
-.article_last {
+.article:nth-last-child(-n+2) {
     margin-bottom: 0;
 }
-
 .alt {
     text-transform: uppercase;
     margin-top: 32px;
@@ -80,15 +81,13 @@ a:hover {
 }
 
 .button {
-display: block;
-height: 60px;
-width: 164px;
-font-size: 20px;
-font-family: 'Playfair Display', serif;
-color: #626262;
-border: 2px solid #626262;
-background: #ffffff;
-margin: 0 auto;
-margin-top: 57px;
-margin-bottom: 70px;
+    display: block;
+    height: 60px;
+    width: 164px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    border: 2px solid #626262;
+    background: #ffffff;
+    margin: 0 auto;
 }
