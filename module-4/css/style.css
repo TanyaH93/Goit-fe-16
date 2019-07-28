@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.wrapper {
+    width: 1110px;
+    margin: auto;
+}
+
+.header {
+    height: auto;
+    overflow: hidden;
+    padding-top: 38px;
+}
+  
+.logo {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.067;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(81, 81, 81);
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.logo::first-letter {
+    color: rgb(26, 188, 156);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.nav {
+    float: right;
+    padding-top: 10px;
+}
+
+.list {
+    display: inline-block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 0.786;
+    margin-right: 30px;
+}
+
+.list:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(47, 35, 35);
+}
+
+a:hover {
+    color: rgb(26, 188, 156);
+}
+
+.section {
+    padding-top: 105px;
+}
+
+.title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: rgb(81, 81, 81);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 164px;
+    height: 7px;
+    background: rgb(78, 198, 171);
+    margin: 32px auto;
+}
+
+.section {
+    height: auto;
+    overflow: hidden;  
+}
+
+.card {
+    float: left;
+    background-color: rgb(233, 240, 253);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.card:hover .name-price {
+    background: rgb(78, 198, 171);
+}
+
+.card-block,
+.news-block {
+    margin-top: 92px;
+}
+
+.card:nth-child(4n) {
+    margin-right: 0;
+}
+
+.card:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}  
+
+.name-price {
+    background: rgb(50, 50, 50);
+    width: 255px;
+    height: 40px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.name {
+    float: left; 
+    color: rgb(255, 255, 255); 
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.price {
+    float: right;
+    color: rgb(255, 255, 255); 
+    width: 54px;
+    background: rgba(255, 255, 255, 0.44);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.news {
+    float: left;
+    margin-right: 30px;
+    width: 350px;
+}
+
+.news:last-child {
+    margin-right: 0;
+}
+
+.title-news {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(85, 82, 82);
+    line-height: 1.444;
+}
+
+.title-news::after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 136px;
+    height: 3px;
+    background-color: rgb(78, 198, 171);
+    margin-top: 15px;
+    margin-bottom: 32px;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: rgb(85, 82, 82);
+    line-height: 1.857;
+    letter-spacing: -0.2px;
+}
+
+.button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgb(78, 198, 171);
+    width: 160px;
+    height: 51px;
+    color: rgb(255, 255, 255);
+    border: solid rgb(78, 198, 171);
+    margin-top: 18px;
+    margin-bottom: 82px;
+}
+
