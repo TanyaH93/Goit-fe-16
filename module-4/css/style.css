@@ -44,17 +44,17 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     line-height: 0.786;
+    margin-right: 30px;
+}
+
+a {
     /* margin-right: 30px; */
+    text-decoration: none;
+    color: rgb(47, 35, 35);
 }
 
 .list:last-child {
     margin-right: 0;
-}
-
-a {
-    margin-right: 30px;
-    text-decoration: none;
-    color: rgb(47, 35, 35);
 }
 
 .menu:hover {
