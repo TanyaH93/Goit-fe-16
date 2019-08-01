@@ -48,7 +48,6 @@
 }
 
 a {
-    /* margin-right: 30px; */
     text-decoration: none;
     color: rgb(47, 35, 35);
 }
@@ -86,7 +85,6 @@ a {
 
 .card {
     width: 255px;
-    height: 322px;
     float: left;
     background-color: rgb(233, 240, 253);
     margin-right: 30px;
@@ -117,6 +115,9 @@ a {
     margin-bottom: 0;
 }  
 
+.link-name {
+    color: rgb(255, 255, 255); 
+}
 .name-price {
     background: rgb(50, 50, 50);
     font-family: 'Roboto', sans-serif;
@@ -125,7 +126,6 @@ a {
 
 .name {
     float: left; 
-    color: rgb(255, 255, 255); 
     text-transform: uppercase;
     font-size: 18px;
     padding: 10px;
