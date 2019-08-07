@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     <title>Homework5</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header clearfix">
-            <h1 class="logo"><a href="#">mart</a></h1>
+            <h1 class="logo"><a class="logo-link" href="#">mart</a></h1>
                 <nav class="navigation">
                     <ul class="nav-list">
                         <li class="list"><a class="menu" href="#">home</a></li>
@@ -25,56 +26,117 @@
         </header>
 
         <div class="slider">
-            <img src="img/slider.png" alt="affordable_paris_tours">
-            <h2 class="slider-title">affordable paris tours</h2>
-            <p class="slider-text">city tours/tour tickets/tour guides</p>
+            <div class="overlay-slider">
+                <div class="tours clearfix">
+                        <button class="slider-btn left"><img src="img/icons/arrow-left.png" width="104" height="104" alt=""></button>
+                    <div class="overlay-text">
+                        <h2 class="slider-title">affordable paris tours</h2>
+                        <p class="slider-text">city tours/tour tickets/tour guides</p>
+                    </div>
+                    <button class="slider-btn right"><img src="img/icons/arrow-right.png" width="104" height="104" alt=""></button>                
+                </div>
+            </div>
+            <img src="img/slider.png" width="1600" height="600" alt="affordable_paris_tours">    
         </div>
 
         <section class="collection">
             <h3 class="new-title">new collection</h3>
-            <div class="products">
-                <div class="card">
+                <div class="products clearfix">
+                    <div class="card">
+                        <div class="overlay">
+                            <div class="overlay-btn">
+                                <ul>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/heart.png" alt="like"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/arrows.png" alt="arrows"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/clock.png" alt="time"></button></li>
+                                    <li class="icon-card">
+                                        <p class="cart"><button class="btn-cart clearfix">
+                                        <img class="img-cart" 
+                                        src="img/icons/cart.png" 
+                                        alt="add to cart">add to cart</button></p> 
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
                     <a href="#"><img src="img/products/blue_tshirt.png" alt="blue_tshirt" width="255" height="282"></a>
-                    <div class="name-prise">
-                        <a href="#">
-                            <h4 class="name">blue tshirt</h4>
-                            <p class="prise">$26</p>
-                        </a>
+                        <div class="name-price clearfix">
+                        <h4 class="name"><a class="link-name" href="#">blue tshirt</a></h4>
+                        <p class="price">$26</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
+                    <div class="card">
+                        <div class="overlay">
+                            <div class="overlay-btn">
+                                <ul>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/heart.png" alt="like"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/arrows.png" alt="arrows"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/clock.png" alt="time"></button></li>
+                                    <li class="icon-card">
+                                        <p class="cart"><button class="btn-cart clearfix">
+                                        <img class="img-cart" 
+                                        src="img/icons/cart.png" 
+                                        alt="add to cart">add to cart </button></p>
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
                     <a href="#"><img src="img/products/woman_shirt.png" alt="woman_shirt" width="255" height="282"></a>
-                    <div class="name-prise">
-                        <a href="#">
-                            <h4 class="name">woman shirt</h4>
-                            <p class="prise">$31</p>
-                        </a>
+                        <div class="name-price clearfix">
+                            <h4 class="name"><a class="link-name" href="#">woman shirt</a></h4>
+                            <p class="price">$31</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
+                    <div class="card">
+                        <div class="overlay">
+                            <div class="overlay-btn">
+                                <ul>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/heart.png" alt="like"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/arrows.png" alt="arrows"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/clock.png" alt="time"></button></li>
+                                    <li class="icon-card">
+                                        <p class="cart"><button class="btn-cart clearfix">
+                                            <img class="img-cart" 
+                                            src="img/icons/cart.png" 
+                                            alt="add to cart">add to cart</button></p>     
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
                     <a href="#"><img src="img/products/yellow_tshirt.png" alt="yellow_tshirt" width="255" height="282"></a>
-                    <div class="name-prise">
-                        <a href="#">
-                            <h4 class="name">yellow tshirt</h4>
-                            <p class="prise">$21</p>
-                        </a>
+                        <div class="name-price clearfix">
+                            <h4 class="name"><a class="link-name" href="#">yellow tshirt</a></h4>
+                            <p class="price">$21</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
+                    <div class="card">
+                        <div class="overlay">
+                            <div class="overlay-btn">
+                                <ul>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/heart.png" alt="like"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/arrows.png" alt="arrows"></button></li>
+                                    <li class="icon-card"><button class="btn"><img class="icon" src="img/icons/clock.png" alt="time"></button></li>
+                                    <li class="icon-card">
+                                        <p class="cart"><button class="btn-cart clearfix">
+                                            <img class="img-cart" 
+                                            src="img/icons/cart.png" 
+                                            alt="add to cart">add to cart  
+                                        </button></p> 
+                                    </li>  
+                                </ul>
+                            </div>
+                        </div>
                     <a href="#"><img src="img/products/cool_lingerie.png" alt="cool_lingerie" width="255" height="282"></a>
-                    <div class="name-prise">
-                        <a href="#">
-                            <h4 class="name">cool lingerie</h4>
-                            <p class="prise">$56</p>
-                        </a>
+                        <div class="name-price clearfix">
+                            <h4 class="name"><a class="link-name" href="#">cool lingerie</a></h4>
+                            <p class="price">$56</p>
+                        </div>
                     </div>
-                </div>
             </div>
         </section>
 
-        <footter class="footer">
+        <footer class="fotter">
             <p class="info">All Rights Reserved © Dokan | Designed <span class="span">ThemenGraph</span></p>
-        </footter>
+        </footer>
     </div>
 </body>
 </html>
