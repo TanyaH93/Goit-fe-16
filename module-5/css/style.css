@@ -10,10 +10,13 @@
 }
 
 .header {
-    width: 1110px;
     margin: auto;
     padding-top: 38px;
     padding-bottom: 32px;
+}
+
+.container {
+    width: 1110px;
 }
 
 .clearfix::after {
@@ -73,30 +76,31 @@ img {
 }
 
 .slider {
-    width: 1600px;
+    width: 100%;
     height: 600px;
     position: relative;
+    object-fit: contain;
 }
 
-.overlay-slider {
-    position: absolute;
-    width: 1600px;
-    height: 600px;
-    background-color: rgba(0, 0, 2, 0.5);
-    text-align: center;
-    opacity: 0;
-}
+.overlay-slider::before {
+ content: '';
+ position: absolute;
+ text-align: center;
+ background-color: rgba(0, 0, 2, 0.55);
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 600px;
+ opacity: 1;
+}    
 
-.slider:hover .overlay-slider {
-    opacity: 1;
-}
 
 .tours {
-    width: 1110px;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .left {
@@ -121,7 +125,8 @@ img {
     display: inline-block;
     text-transform: uppercase;
     color: white;
-    line-height: 1.367;
+    line-height: 1.2;
+    text-align: inherit;
 }
 
 .slider-title {
@@ -165,7 +170,6 @@ img {
 }
 
 .products {
-    width: 1110px;
     margin: auto;
 }
 
@@ -173,6 +177,7 @@ img {
     position: relative;
     float: left;
     margin-right: 30px;
+    width: 255px;
 }
 
 .card:last-child {
@@ -212,10 +217,11 @@ img {
 .price {
     float: right;
     width: 54px;
-    height: 41px;
+    height: 45px;
     background-color: rgba(255, 255, 255, 0.44);
     text-align: center;
     padding: 10px;
+    font-size: 18px;
 }
 
 .card:hover .name-price {
@@ -224,17 +230,19 @@ img {
 
 .overlay {
     display: block;
-    width: 235px;
-    height: 262px;
     background-color: rgba(0, 0, 0, 0.55);
     position: absolute;
-    margin: 10px;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 55px;
     opacity: 0;
 }  
 
 .card:hover .overlay {
     opacity: 1;
 }
+
 
 .overlay-btn {
     width: 165px;
@@ -265,16 +273,6 @@ img {
     float: left;
 }
 
-.cart {
-    float: right;
-    text-align: center;
-    margin: 0 auto;
-    margin-right: 15px;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
-
 .btn-cart {
     background-color: rgb(50, 50, 50);
     border: 1px solid white;
@@ -284,7 +282,10 @@ img {
     margin-top: 6px;
     font-size: 14px;
     text-transform: uppercase; 
-    line-height: 48px;   
+    line-height: 48px;  
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
 }
 
 .btn:nth-child(3) {
@@ -310,3 +311,18 @@ img {
 .span {
     color: rgb(26, 188, 156);
 }
+
+.Rectangle_50_copy {
+    border-width: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.549;
+    position: absolute;
+    left: 530px;
+    top: 946px;
+    width: 235px;
+    height: 261px;
+    z-index: 25;
+  }
+  
