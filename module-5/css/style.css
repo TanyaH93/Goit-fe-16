@@ -72,25 +72,26 @@ img {
 
 .slider {
     margin: auto;
-    height: 600px;
     position: relative;
-    object-fit: contain;
 }
 
 .banner {
     width: 100%;
+    height: 600px;
+    object-fit: fill;
+    
 }
 
-.overlay-slider::before {
+.slider::before {
     content: '';
     position: absolute;
-    text-align: center;
     background-color: rgba(0, 0, 2, 0.55);
-    margin: auto;
+    right: 0;
+    bottom: 0;
     top: 0;
     left: 0;
-    height: 600px;
     opacity: 1;
+    
 }    
 
 
