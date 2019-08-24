@@ -261,7 +261,8 @@ img {
     height: 45px;
     background-color: rgba(255, 255, 255, 0.44);
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
+    line-height: 45px;
     font-size: 18px;
 }
 
