@@ -11,8 +11,7 @@
 
 .header {
     min-height: 80px;
-   align-items: center;
-   /* background: red; */
+    align-items: center;
 } 
 
 a {
@@ -34,7 +33,6 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between;
-
 }
 
 .navigation {
@@ -79,7 +77,6 @@ a {
 }
 
 .service {
-    /* background: blue; */
     padding-top: 80px;
 }
 
@@ -208,7 +205,6 @@ img {
     opacity: 1;
     transition-duration: 200ms;
     transition-timing-function: linear;
-
 }
 .overlay-img {
     position: relative;
@@ -218,23 +214,21 @@ img {
     transform: translate(-10px, -10px);
     transition-duration: 200ms;
     transition-timing-function: linear;
-    box-shadow: 10px 10px 0 rgb(149, 225, 211);
-   
+    box-shadow: 10px 10px 0 rgb(149, 225, 211); 
 }
 
 .overlay {
     display: flex;
     position: absolute;
     background-image: linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%);
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
 }
- 
 
 .btn {
     width: 55px;
@@ -251,29 +245,25 @@ img {
 }
 
 .facebook {
-background-image: url(../img/icon-social/facebook.png);
-
+    background-image: url(../img/icon-social/facebook.png);
 }
 
 .twitter {
-background-image: url(../img/icon-social/twitter.png);
-
+    background-image: url(../img/icon-social/twitter.png);
 }
 
 .pinterest {
-background-image: url(../img/icon-social/pinterest.png);
+    background-image: url(../img/icon-social/pinterest.png);
 }
 
 .instagram {
-background-image: url(../img/icon-social/instagram.png);
+    background-image: url(../img/icon-social/instagram.png);
 }
 
 .overlay-btn {
     position: absolute;
     display: flex;
-
 }
-
 
 .team::after {
     content: "";
@@ -286,14 +276,13 @@ background-image: url(../img/icon-social/instagram.png);
 
 .footer {
     height: 64px;
-    /* background-color: green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-link {
-color: #f38181;
+    color: #f38181;
 }
 
 .info {
