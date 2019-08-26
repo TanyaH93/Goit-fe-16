@@ -10,14 +10,20 @@
 }
 
 .header {
-min-height: 80px;
+    min-height: 80px;
    align-items: center;
-   background: red;
-}
+   /* background: red; */
+} 
 
 a {
     text-decoration: none;
     color: #95e1d3;
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .logo,
@@ -28,10 +34,7 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-between;
-}
 
-.logo {
-    
 }
 
 .navigation {
@@ -43,28 +46,61 @@ a {
 }
 
 .list-item {
+    position: relative;
     margin-right: 55px;
     text-transform: uppercase;
     color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .list-item:last-child {
     margin-right: 0;
 }
 
-.service {
-    background: blue;
+.list-item:hover ::after {
+    content: "";
+    display: table;
+    clear: both;
+    position: absolute;
+    background-color: #f38181;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    margin-top: 12px;
+    width: 50px;
+    height: 3px;
 }
 
-.title-service {
+.menu:hover {
+    color: #f38181;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.service {
+    /* background: blue; */
+    padding-top: 80px;
+}
+
+.title-service, 
+.title-team {
     text-align: center;
     line-height: 40px;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
 }
 
-.service-span {
+.service-span,
+.team-span {
     display: block;
     text-transform: uppercase;
-    
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
 }
 
 .title-service::after {
@@ -77,19 +113,27 @@ a {
     margin: 42px auto;
 }
 
-.our-work {
-    /* display: flex; */
-    
+.title-team::after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 42px auto; 
 }
+
 
 .list-service {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .item-service {
     display: flex;
-    width: 400px;
+    width: 380px;
+    margin-bottom: 90px;
 }
 
 .title-work {
@@ -97,4 +141,200 @@ a {
     margin-bottom: 15px;
     text-transform: uppercase;
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
 }
+
+.service-text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    line-height: 1.8;
+}
+
+.description {
+    font-size: 15px;
+    width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+    line-height: 1.8;
+}
+
+.our-team {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-card {
+    width: 380px;
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+.card-text {
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+.position {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(153, 153, 153);
+}
+
+.team-card:hover .overlay {
+    opacity: 1;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+
+}
+.overlay-img {
+    position: relative;
+} 
+
+.overlay-img:hover {
+    transform: translate(-10px, -10px);
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    box-shadow: 10px 10px 0 rgb(149, 225, 211);
+   
+}
+
+.overlay {
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient( rgba(243,129,129,0.9) 0%, rgba(252,227,138,0.9) 100%);
+   justify-content: center;
+   align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+ 
+
+.btn {
+    width: 55px;
+    height: 55px;
+    background-color: #fce38a;
+    border: none;
+    margin-right: 1px;
+}
+
+.btn:hover {
+    background-color: rgb(149, 225, 211);
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+}
+
+.facebook {
+background-image: url(../img/icon-social/facebook.png);
+
+}
+
+.twitter {
+background-image: url(../img/icon-social/twitter.png);
+
+}
+
+.pinterest {
+background-image: url(../img/icon-social/pinterest.png);
+}
+
+.instagram {
+background-image: url(../img/icon-social/instagram.png);
+}
+
+.overlay-btn {
+    position: absolute;
+    display: flex;
+
+}
+
+
+.team::after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: rgb(229, 229, 229);   
+    width: 1200px;
+    height: 1px;
+}
+
+.footer {
+    height: 64px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+color: #f38181;
+}
+
+.info {
+    font-size: 14px;
+    padding-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+.form {
+    display: flex;
+}
+
+.submit {
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: rgb(149, 225, 211);
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+  
+.input {
+    padding-left: 10px;
+    width: 234px;
+    height: 40px;
+    border: 1px solid rgb(231, 231, 231); 
+    border-right: none;
+}
+  
+.input::placeholder {
+    color: rgb(204, 204, 204);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+  
