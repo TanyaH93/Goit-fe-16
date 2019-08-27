@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-v14-latin-regular.woff') format(woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-v14-latin-700.woff') format(woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CrimsonText';
+    src: url('../fonts/CrimsonText-RegularItalic.ttf') format(truetype);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'roboto-slab';
+    src: url('../fonts/roboto-slab-v9-latin-regular.woff') format(woff);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 940px;
+}
+
+.logo,
+.nav-list,
+.header {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    min-height: 80px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;  
+}
+
+.logo-link {
+    text-decoration: none;
+    color: #fed136;
+}
+
+.navigation {
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.nav-link:hover {
+    color: #fed136;
+}
+
+.service {
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.title-service {
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+
+.text-service {
+    text-align: center;
+    color: #777777;
+    line-height: 2;
+    font-family: 'CrimsonText', serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.our-work {
+    padding-top: 60px;
+}
+
+.list-service {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.service-item {
+    width: 290px;
+    text-align: center;
+    list-style: none;
+}
+
+.title-card {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-card {
+    color: #777777;
+    font-family: 'roboto-slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.section-form {
+    background-image: url(../img/form.png);
+    width: 100%;
+    height: 676px;
+    padding-top: 100px;
+    object-fit: cover;
+}
+
+.title-contact {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-contact {
+    text-align: center;
+    color: #777777;
+    line-height: 2;
+    font-family: 'CrimsonText', serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.user-form {
+    margin: 0 auto;
+}
+
+.form {
+    margin-top: 70px;
+}
+
+.all-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-left {
+    width: 455px;
+}
+
+.input {
+    display: block;
+    width: 455px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    padding-left: 20px;
+   border: none;
+}
+
+.input::placeholder {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(187, 187, 187);
+}
+
+.input-message {
+    height: 210px;
+    width: 455px;
+    padding-top: 15px;
+}
+
+.btn {
+    display: block;
+    border-radius: 3px;
+    background-color: rgb(254, 209, 54);
+    width: 240px;
+    height: 66px;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;   
+}
+
+.form input[name="name"]:valid,
+.form input[name="email"]:valid,
+.form textarea[name="message"]:valid {
+    outline: 2px solid rgb(20, 158, 20);
+  }
+
+  .form input[name="name"]:invalid,
+  .form input[name="email"]:invalid,
+  .form textarea[name="message"]:invalid {
+    outline: 2px solid red;
+} 
+
