@@ -16,6 +16,7 @@
 .banner {
     display: inline-block;
     position: relative;
+
 }
 
 .banner-block {
@@ -101,21 +102,19 @@
 }
 
 .link-find {
+    display: inline-block;
+    background: #ff4e50;
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-}
-
-.btn-find {
-    background-color: #ff4e50;
-    width: 280px;
-    height: 40px;
     border-radius: 50px;
     border: none;
+    line-height: 40px;   
+    width: 280px;
+    height: 40px;   
 }
-
 .partners-block {
     text-align: center;
 }
@@ -131,39 +130,6 @@
 .partner {
     width: 250px;
     margin: 0 auto;    
-}
-
-.name {
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-.partner-text {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: rgb(102, 102, 102);
-}
-
-.link-see {
-    text-decoration: none;
-    color: #ff4e50;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-  
-.btn-other {
-    background-color:transparent;
-    width: 280px;
-    height: 40px;
-    border-radius: 50px;
-    border: 2px solid #ff4e50;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
 .img-photo {
@@ -230,3 +196,35 @@
     bottom: -4px;   
 }
 
+.name {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.partner-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
+
+.link-see {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff4e50;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color:transparent;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 2px solid #ff4e50;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+  

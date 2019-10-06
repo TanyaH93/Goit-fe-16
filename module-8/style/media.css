@@ -32,7 +32,7 @@
     padding-bottom: 20px;
 }
 
-.btn-find {
+.link-find {
     width: 225px;
 }
 
@@ -46,6 +46,10 @@
 }
 
 .btn-other {
+    width: 225px;
+}
+
+.link-see {
     width: 225px;
 }
 
@@ -68,13 +72,16 @@
     .img-bn {
         width: 100%;
         object-fit: cover;
-        height: 700px;
+        height: auto;
     }
 
     .all-partners {
         display: flex;
     }
 
+    .wrapper {
+        min-width: 1440px;
+    }
 
     .logo-btn {
         width: 940px;
@@ -88,6 +95,5 @@
     
     .container {
         width: 940px;
-        margin: 0 auto;
     }
 }
