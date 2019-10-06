@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: inline-block;
+    position: relative;
+}
+
+.banner-block {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 20px;
+} 
+
+.img-bn {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image-banner {
+    position: relative;
+}
+ 
+.image-banner:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: rgba(26, 25, 21, 0.25);
+}
+
+.btn-block {
+    padding-bottom: 120px;
+}
+
+.button {
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.button:hover {
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.logo-btn {
+    margin-bottom: 25px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+
+.title-text {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.link-find {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.btn-find {
+    background-color: #ff4e50;
+    width: 280px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+.partners-block {
+    text-align: center;
+    padding: 0;
+}
+
+.title-partner {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.partner {
+    width: 250px;
+    margin: 0 auto;    
+}
+
+.name {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.partner-text {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+}
+
+.link-see {
+    text-decoration: none;
+    color: #ff4e50;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+  
+.btn-other {
+    background-color:transparent;
+    width: 280px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #ff4e50;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.img-photo {
+    border-radius: 50%;
+}
+
+.img-partner {
+    display: flex;
+    position: relative;
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+}
+
+.hunter::after {
+    content: url(../img/icons/tv.png);
+    width: 18px;
+    height: 18px;
+    padding: 7px;
+    background-color: #ff4e50;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+}
+
+.marsha::after {
+    content: url(../img/icons/time.png);
+    width: 18px;
+    height: 18px;
+    padding: 7px;
+    background-color: #ffa507;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;   
+}
+
+.walker::after {
+    content: url(../img/icons/coffee.png);
+    width: 18px;
+    height: 18px;
+    padding: 7px;
+    background-color: #1cd7ad;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;   
+}
+
+.bradley::after {
+    content: url(../img/icons/telegram.png);
+    width: 18px;
+    height: 18px;
+    padding: 7px;
+    background-color: #4e73db;
+    border: 4px solid #ffffff;
+    border-radius: 100%;
+    position: absolute;
+    right: -4px;
+    bottom: -4px;   
+}
+
