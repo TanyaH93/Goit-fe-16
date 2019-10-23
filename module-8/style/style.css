@@ -136,7 +136,7 @@
 }
 
 .img-partner {
-    /* display: flex; */
+    display: flex;
     position: relative;
     width: 122px;
     height: 122px;
