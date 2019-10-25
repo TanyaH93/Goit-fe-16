@@ -333,7 +333,7 @@ img {
     fill: #f38181;
   }
 
-  .team-img:hover {
+  .team-link .team-img:hover {
     fill: #ffffff;
   }
 
