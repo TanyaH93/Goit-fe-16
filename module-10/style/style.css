@@ -57,6 +57,13 @@
     color: #ffffff;
 }
 
+.menu-img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+  }
+
 .list-item:hover ::after {
     content: "";
     display: table;
