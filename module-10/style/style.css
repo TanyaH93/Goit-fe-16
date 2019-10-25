@@ -33,11 +33,11 @@
     
 }
 
-.list-item:not(:last-child) {
+.nav-list_item:not(:last-child) {
     margin-right: 55px;
 }
 
-.list-item {
+.nav-list_item {
     position: relative;
     display: inline-block;
     text-transform: uppercase;
@@ -46,11 +46,11 @@
     font-size: 14px;
 }
 
-.list-item-img:not(:last-child) {
+.nav-list_item--icon:not(:last-child) {
     margin-right: 55px;
 }
 
-.list-item-img {
+.nav-list_item--icon {
     position: relative;
     display: inline-block;
 }
@@ -60,14 +60,14 @@
     color: #ffffff;
 }
 
-.menu-img {
+.menu-icon {
     display: inline-block;
     width: 20px;
     height: 20px;
     fill: #ffffff;
   }
 
-  .menu-link {
+  .icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@
     border: none;
   }
 
-.menu-img:hover {
+.menu-icon:hover {
 fill: rgb(252,227,138);
 }
 
@@ -96,7 +96,7 @@ fill: rgb(252,227,138);
     align-items: center;
 }
 
-.nav-link:hover {
+.nav-list_link:hover {
     color: rgb(252,227,138);
 }
 
@@ -105,14 +105,14 @@ text-align: center;
 line-height: 8em;
 }
 
-.banner-title {
+.banner-text_title {
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     color: #ffffff;
     font-size: 72px;
 }
 
-.banner-span {
+.banner-text_title--span {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -142,8 +142,8 @@ line-height: 8em;
     padding-top: 80px;
 }
 
-.title-service, 
-.title-team {
+.service-title, 
+.team-title {
     text-align: center;
     line-height: 40px;
     font-size: 24px;
@@ -152,8 +152,8 @@ line-height: 8em;
     color: rgb(51, 51, 51);
 }
 
-.service-span,
-.team-span {
+.service-title_span,
+.team-title_span {
     display: block;
     text-transform: uppercase;
     font-size: 30px;
@@ -162,7 +162,7 @@ line-height: 8em;
     color: rgb(51, 51, 51);
 }
 
-.title-service::after {
+.service-title::after {
     content: "";
     display: table;
     clear: both;
@@ -172,7 +172,7 @@ line-height: 8em;
     margin: 42px auto;
 }
 
-.title-team::after {
+.team-title::after {
     content: "";
     display: table;
     clear: both;
@@ -183,25 +183,25 @@ line-height: 8em;
 }
 
 
-.list-service {
+.service-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.item-service {
+.service-list_item {
     display: flex;
     width: 380px;
     margin-bottom: 90px;
 }
 
-.service-icon {
+.service-list_item--icon {
 margin: 30px;
 fill: rgb(149, 225, 211); 
 
 }
 
-.title-work {
+.service-list_item--title {
     margin-top: 22px;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -211,7 +211,7 @@ fill: rgb(149, 225, 211);
     color: rgb(51, 51, 51);
 }
 
-.service-text {
+.service-list_item--description {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -219,7 +219,7 @@ fill: rgb(149, 225, 211);
     line-height: 1.8;
 }
 
-.description {
+.team-description {
     font-size: 15px;
     width: 980px;
     margin: 0 auto;
@@ -246,14 +246,14 @@ img {
     display: block;
 }
 
-.card-text {
+.team-list_item--text {
     text-align: center;
     line-height: 1.7;
     padding-top: 30px;
     padding-bottom: 80px;
 }
 
-.name {
+.team-list_item--name {
     text-transform: uppercase;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -261,7 +261,7 @@ img {
     color: rgb(51, 51, 51);
 }
 
-.position {
+.team-list_item--description {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -274,11 +274,11 @@ img {
     transition-duration: 200ms;
     transition-timing-function: linear;
 }
-.overlay-img {
+.team-card_overlay {
     position: relative;
 } 
 
-.overlay-img:hover {
+.team-card_overlay:hover {
     transform: translate(-10px, -10px);
     transition-duration: 200ms;
     transition-timing-function: linear;
@@ -397,7 +397,7 @@ img {
     color: #f38181;
 }
 
-.info {
+.footer-info {
     font-size: 14px;
     padding-left: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -405,11 +405,11 @@ img {
     color: rgb(51, 51, 51);
 }
 
-.form {
+.footer-form {
     display: flex;
 }
 
-.submit {
+.footer-form_button {
     text-transform: uppercase;
     font-size: 14px;
     background-color: rgb(149, 225, 211);
@@ -421,7 +421,7 @@ img {
     color: rgb(255, 255, 255);
 }
   
-.input {
+.footer-form_input {
     padding-left: 10px;
     width: 234px;
     height: 40px;
@@ -429,16 +429,13 @@ img {
     border-right: none;
 }
   
-.input::placeholder {
+.footer-form_input::placeholder {
     color: rgb(204, 204, 204);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 14px;
 }
-
-
-
 
 @media (min-resoluion: 192dpi), (min-resoluion: 2dppx) {
     .banner {

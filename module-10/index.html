@@ -14,27 +14,26 @@
 
 <body>
 
-
     <div class="banner container">
         <header class="header container">
             <h1 class="logo"><a class="link" href="#">MoGo</a></h1>
             <nav class="navigation">
                 <ul class="nav-list">
-                    <li class="list-item"><a class="link nav-link" href="#">about</a></li>
-                    <li class="list-item"><a class="link nav-link" href="#">service</a></li>
-                    <li class="list-item"><a class="link nav-link" href="#">work</a></li>
-                    <li class="list-item"><a class="link nav-link" href="#">blog</a></li>
-                    <li class="list-item"><a class="link nav-link" href="#">contact</a></li>
-                    <li class="list-item-img">
-                        <a class="link nav-link menu-link" href="#">
-                            <svg class="menu-img">
+                    <li class="nav-list_item"><a class="link nav-list_link" href="#">about</a></li>
+                    <li class="nav-list_item"><a class="link nav-list_link" href="#">service</a></li>
+                    <li class="nav-list_item"><a class="link nav-list_link" href="#">work</a></li>
+                    <li class="nav-list_item"><a class="link nav-list_link" href="#">blog</a></li>
+                    <li class="nav-list_item"><a class="link nav-list_link" href="#">contact</a></li>
+                    <li class="nav-list_item--icon">
+                        <a class="link nav-list_link icon-link" href="#">
+                            <svg class="menu-icon">
                                 <use xlink:href="img/icon-social/symbol-defs.svg#cart"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="list-item-img">
-                        <a class="link nav-link menu-link" href="#">
-                            <svg class="menu-img">
+                    <li class="nav-list_item--icon">
+                        <a class="link nav-list_link icon-link" href="#">
+                            <svg class="menu-icon">
                                 <use xlink:href="img/icon-social/symbol-defs.svg#search"></use>
                             </svg>
                         </a>
@@ -43,171 +42,216 @@
             </nav>
         </header>
         <div class="banner-text container">
-            <h2 class="banner-title">Creative Template <span class="banner-span">Welcome<span class="span"> to
-                        MoGo</span></span></h2>
+            <h2 class="banner-text_title">Creative Template <span class="banner-text_title--span">Welcome<span
+                        class="span"> to MoGo</span></span></h2>
             <button class="banner-button">learn more</button>
         </div>
 
     </div>
 
     <section class="service container">
-        <h2 class="title-service">We work with<span class="service-span">amazing services</span></h2>
-        <div class="our-work">
-            <ul class="list-service">
-                <li class="item-service">
-
-                    <img class="service-icon" src="img/icon-service/alarm.png" alt="photography" width="32" height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">photography</h3>
-                        <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor.</p>
-                    </div>
-                </li>
-                <li class="item-service">
-                    <img class="service-icon" src="img/icon-service/web-design.png" alt="web_design" width="32"
-                        height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">web design</h3>
-                        <p class="service-text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor.</p>
-                    </div>
-                </li>
-                <li class="item-service">
-                    <img class="service-icon" src="img/icon-service/creativity.png" alt="creativity" width="32"
-                        height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">creativity</h3>
-                        <p class="service-text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                </li>
-                <li class="item-service">
-                    <img class="service-icon" src="img/icon-service/seo.png" alt="seo" width="32" height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">seo</h3>
-                        <p class="service-text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                    </div>
-                </li>
-                <li class="item-service">
-                    <img class="service-icon" src="img/icon-service/css-html.png" alt="css/html" width="32" height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">css/html</h3>
-                        <p class="service-text">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
-                    </div>
-                </li>
-                <li class="item-service">
-                    <img class="service-icon" src="img/icon-service/digital.png" alt="digital" width="32" height="32">
-                    <div class="item-text">
-                        <h3 class="title-work">digital</h3>
-                        <p class="service-text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <h2 class="service-title">We work with<span class="service-title_span">amazing services</span></h2>
+        <ul class="service-list">
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/alarm.png" alt="photography" width="32"
+                    height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">photography</h3>
+                    <p class="service-list_item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod
+                        tempor.</p>
+                </div>
+            </li>
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/web-design.png" alt="web_design" width="32"
+                    height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">web design</h3>
+                    <p class="service-list_item--description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod
+                        tempor.</p>
+                </div>
+            </li>
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/creativity.png" alt="creativity" width="32"
+                    height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">creativity</h3>
+                    <p class="service-list_item--description">Dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor.</p>
+                </div>
+            </li>
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/seo.png" alt="seo" width="32" height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">seo</h3>
+                    <p class="service-list_item--description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod.</p>
+                </div>
+            </li>
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/css-html.png" alt="css/html" width="32"
+                    height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">css/html</h3>
+                    <p class="service-list_item--description">Lorem dolor sit amet, consectetur adipiscing elit, sed do
+                        tempor.</p>
+                </div>
+            </li>
+            <li class="service-list_item">
+                <img class="service-list_item--icon" src="img/icon-service/digital.png" alt="digital" width="32"
+                    height="32">
+                <div class="service-list_item--text">
+                    <h3 class="service-list_item--title">digital</h3>
+                    <p class="service-list_item--description">Sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor.</p>
+                </div>
+            </li>
+        </ul>
     </section>
 
     <section class="team container">
-        <h2 class="title-team">Who we are <span class="team-span">Meet our team</span></h2>
-        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        <h2 class="team-title">Who we are <span class="team-title_span">Meet our team</span></h2>
+        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.</p>
         <div class="our-team">
             <div class="team-card">
-                <div class="overlay-img">
+                <div class="team-card_overlay">
                     <div class="overlay">
-                        <div class="overlay-btn  ">
-                            <a class="btn facebook" href="#"></a>
-                            <a class="btn twitter" href="#"></a>
-                            <a class="btn pinterest" href="#"></a>
-                            <a class="btn instagram" href="#"></a>
-                        </div>
-                    </div>
-                    <img srcset="img/team/team-1.jpg 380w, img/team/team-1@2x.jpg 760w" sizes="380px"
-                        src="img/team/team-1.jpg" alt="matthew dix" height="470">
-                </div>
-                <div class="card-text">
-                    <h3 class="name">matthew dix</h3>
-                    <p class="position">Graphic Design</p>
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="overlay-img">
-                    <div class="overlay">
-
-
                         <ul class="team-list-socials">
                             <li class="team-list-item">
                                 <a class="team-link" href="#">
-                                    <svg class="team-img">
+                                    <svg class="team-icon">
                                         <use xlink:href="img/icon-social/symbol-defs.svg#facebook"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="team-list-item">
                                 <a class="team-link" href="#">
-                                    <svg class="team-img">
+                                    <svg class="team-icon">
                                         <use href="img/icon-social/symbol-defs.svg#twitter"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="team-list-item">
                                 <a class="team-link" href="#">
-                                    <svg class="team-img">
+                                    <svg class="team-icon">
                                         <use href="img/icon-social/symbol-defs.svg#pinterest"></use>
                                     </svg>
                                 </a>
                             </li>
                             <li class="team-list-item">
                                 <a class="team-link" href="#">
-                                    <svg class="team-img">
+                                    <svg class="team-icon">
                                         <use href="img/icon-social/symbol-defs.svg#instagram"></use>
                                     </svg>
                                 </a>
                             </li>
                         </ul>
-
-
-                        <!-- <div class="overlay-btn">
-                            <a class="btn facebook" href="#"></a>
-                            <a class="btn twitter" href="#"></a>
-                            <a class="btn pinterest" href="#"></a>
-                            <a class="btn instagram" href="#"></a>
-                        </div> -->
+                    </div>
+                    <img srcset="img/team/team-1.jpg 380w, img/team/team-1@2x.jpg 760w" sizes="380px"
+                        src="img/team/team-1.jpg" alt="matthew dix" height="470">
+                </div>
+                <div class="team-list_item--text">
+                    <h3 class="team-list_item--name">matthew dix</h3>
+                    <p class="team-list_item--description">Graphic Design</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="team-card_overlay">
+                    <div class="overlay">
+                        <ul class="team-list-socials">
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use xlink:href="img/icon-social/symbol-defs.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#pinterest"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <img srcset="img/team/team-2.jpg 380w, img/team/team-2@2x.jpg 760w" sizes="380px"
                         src="img/team/team-2.jpg" alt="christopher campbell" height="470">
                 </div>
-                <div class="card-text">
-                    <h3 class="name">christopher campbell</h3>
-                    <p class="position">Branding/UX design</p>
+                <div class="team-list_item--text">
+                    <h3 class="team-list_item--name">christopher campbell</h3>
+                    <p class="team-list_item--description">Branding/UX design</p>
                 </div>
             </div>
             <div class="team-card">
-                <div class="overlay-img">
+                <div class="team-card_overlay">
                     <div class="overlay">
-                        <div class="overlay-btn">
-                            <a class="btn facebook" href="#"></a>
-                            <a class="btn twitter" href="#"></a>
-                            <a class="btn pinterest" href="#"></a>
-                            <a class="btn instagram" href="#"></a>
-                        </div>
+                        <ul class="team-list-socials">
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use xlink:href="img/icon-social/symbol-defs.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#pinterest"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="team-list-item">
+                                <a class="team-link" href="#">
+                                    <svg class="team-icon">
+                                        <use href="img/icon-social/symbol-defs.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                     <img srcset="img/team/team-3.jpg 380w, img/team/team-3@2x.jpg 760w" sizes="380px"
                         src="img/team/team-3.jpg" alt="michael fertig" height="470">
                 </div>
-                <div class="card-text">
-                    <h3 class="name">michael fertig</h3>
-                    <p class="position">Developer</p>
+                <div class="team-list_item--text">
+                    <h3 class="team-list_item--name">michael fertig</h3>
+                    <p class="team-list_item--description">Developer</p>
                 </div>
             </div>
         </div>
     </section>
 
     <footer class="footer container">
-        <p class="info">© 2016 MoGo free PSD template by <span class="footer-span"><a href="#"
-                    class="footer-link">Laaqiq</a></span></p>
-        <form class="form" action="#">
-            <input class="input" type="email" placeholder="Your Email...">
-            <button type="submit" class="submit">subscribe</button>
+        <p class="footer-info">© 2016 MoGo free PSD template by
+            <a href="#" class="footer-link">Laaqiq</a></p>
+        <form class="footer-form" action="#">
+            <input class="footer-form_input" type="email" placeholder="Your Email...">
+            <button type="submit" class="footer-form_button">subscribe</button>
         </form>
     </footer>
 
