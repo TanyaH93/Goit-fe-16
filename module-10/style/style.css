@@ -381,7 +381,7 @@ img {
     fill: #f38181;
   }
 
-  .team-link:hover .team-icon {
+  .team-list-item:hover .team-icon {
     fill: #ffffff;
   }
 
