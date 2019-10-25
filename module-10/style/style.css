@@ -7,14 +7,15 @@
 
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .banner {
     display: block;
-    width: 1920px;
+    min-width: 1920px;
     height: 1000px;
     background-size: cover;
+
     margin-bottom: 80px;
     background: -webkit-gradient( linear, left top, left bottom, from(rgba(243,129,129, 0.9)), to(rgba(252,227,138, 0.9))), url(../img/banner.png) no-repeat;
     background: -o-linear-gradient( rgba(243,129,129, 0.9), rgba(252,227,138, 0.9)), url(../img/banner.png) no-repeat;
@@ -39,6 +40,7 @@
     font-weight: 700;
     font-size: 30px;   
 }
+
 
 .nav-list_item {
     position: relative;
@@ -152,6 +154,7 @@ line-height: 8em;
     margin-top: 100px;
 }
 
+
 .service-title, 
 .team-title {
     text-align: center;
@@ -224,6 +227,12 @@ fill: rgb(149, 225, 211);
     color: rgb(153, 153, 153);
     line-height: 1.8;
 }
+
+/* .team {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
 
 .team-description {
     font-size: 15px;
@@ -359,6 +368,7 @@ img {
     border: none;
     background-color: #fce38a;
   }
+
   
   .team-link:hover {
     background-color: #f38181;
@@ -371,7 +381,7 @@ img {
     fill: #f38181;
   }
 
-  .team-link:hover .team-img {
+  .team-link:hover .team-icon {
     fill: #ffffff;
   }
 
