@@ -67,8 +67,9 @@
   .menu-link {
     display: flex;
     align-items: center;
-    width: 55px;
-    height: 55px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
     border: none;
   }
 
