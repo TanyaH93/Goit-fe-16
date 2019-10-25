@@ -83,6 +83,12 @@
     height: 3px;
 }
 
+.nav-list {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
 .nav-link:hover {
     color: rgb(252,227,138);
 }
