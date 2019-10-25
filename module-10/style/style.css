@@ -299,15 +299,8 @@ img {
     width: 30px;
     height: 30px;
     fill: #c6cacc;
-    transition: fill 0.2s linear;
   }
 
-  .team-svg {
-display: inline-block;
-fill: #ffffff;
-width: 16px;
-height: 32px;
-  }
 
 /* .btn {
     width: 55px;
