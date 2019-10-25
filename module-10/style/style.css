@@ -64,6 +64,14 @@
     fill: #ffffff;
   }
 
+  .menu-link {
+    display: flex;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border: none;
+  }
+
 .list-item:hover ::after {
     content: "";
     display: table;
