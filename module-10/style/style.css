@@ -59,8 +59,8 @@
 
 .menu-img {
     display: inline-block;
-    width: 14px;
-    height: 14px;
+    width: 20px;
+    height: 20px;
     fill: #ffffff;
   }
 
@@ -321,17 +321,20 @@ img {
     background-color: #fce38a;
   }
   
-  .team-link:hover svg {
-    fill: #ffffff;
+  .team-link:hover {
+    fill: #f38181;
   }
   
   .team-img {
     display: inline-block;
     width: 30px;
     height: 30px;
-    fill: #e84545;
+    fill: #f38181;
   }
 
+  .team-img:hover {
+    fill: #ffffff;
+  }
 
 /* .btn {
     width: 55px;
