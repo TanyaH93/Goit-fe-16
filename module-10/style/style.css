@@ -59,8 +59,8 @@
 
 .menu-img {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 14px;
+    height: 14px;
     fill: #ffffff;
   }
 
@@ -71,6 +71,10 @@
     height: 55px;
     border: none;
   }
+
+.menu-link:hover {
+fill: rgb(252,227,138);
+}
 
 .list-item:hover ::after {
     content: "";
@@ -85,7 +89,6 @@
 
 .nav-list {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -319,14 +322,14 @@ img {
   }
   
   .team-link:hover svg {
-    fill: #e84545;
+    fill: #ffffff;
   }
   
   .team-img {
     display: inline-block;
     width: 30px;
     height: 30px;
-    fill: #c6cacc;
+    fill: #e84545;
   }
 
 
