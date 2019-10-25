@@ -46,6 +46,9 @@
     font-size: 14px;
 }
 
+.list-item-img:not(:last-child) {
+    margin-right: 55px;
+}
 
 .list-item-img {
     position: relative;
